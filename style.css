@@ -1,0 +1,230 @@
+@charset 'UTF-8';
+
+/* Font */
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('font/fontawesome-webfont.eot?v=3.2.1');
+	src: url('font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'),
+		 url('font/fontawesome-webfont.woff?v=3.2.1') format('woff'),
+		 url('font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'),
+		 url('font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Body */
+body, input, textarea {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	color: #777;
+}
+
+strong, b {
+	font-weight: 400;
+	color: #363636;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	color: #363636;
+}
+
+/* Blockquote */
+blockquote {
+	border-left: solid 0.5em #ddd;
+	padding: 1em 0 1em 2em;
+	font-style: italic;
+}
+
+/* Emphasis */
+em, i {
+	font-style: italic;
+}
+
+/* Horizontal Rule */
+hr {
+	border: 0;
+	border-top: solid 1px #ddd;
+	padding: 1.5em 0 0 0;
+	margin: 1.75em 0 0 0;
+}
+
+/* Subscript */
+sub {
+	position: relative;
+	top: 0.5em;
+	font-size: 0.8em;
+}
+
+/* Superscript */
+sup {
+	position: relative;
+	top: -0.5em;
+	font-size: 0.8em;
+}
+
+/* Tables */
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table th, table td {
+	padding: 0.5em;
+	text-align: center;
+}
+
+table tbody tr:nth-child(2n+2) {
+	background: #f4f4f4;
+}
+
+table thead {
+	background: #222222;
+	color: #fff;
+}
+
+table tfoot {
+	background: #eee;
+}
+
+/* Forms */
+form {
+	margin-bottom: 2em;
+}
+
+form input.text,
+form select,
+form textarea {
+	border: 0;
+	background: #f0f0f0;
+	padding: 0.65em;
+	width: 100%;
+	-webkit-appearance: none;
+}
+
+form textarea {
+	height: 15em;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+	background: #f5f5f5;
+}
+
+form ::-webkit-input-placeholder,
+form :-moz-placeholder,
+form ::-moz-placeholder,
+form :-ms-input-placeholder {
+	color: #999;
+}
+
+/* Clearfix */
+br.clear {
+	clear: both;
+}
+
+/* Spacing */
+p, ul, ol, dl, table, blockquote, form {
+	margin-bottom: 2em;
+}
+
+section, article {
+	margin-bottom: 3em;
+}
+
+section > :last-child, article > :last-child {
+	margin-bottom: 0;
+}
+
+/* Images */
+.image img {
+	display: block;
+	width: 100%;
+}
+
+.image-full {
+	display: block;
+	width: 100%;
+	margin: 0 0 2em;
+}
+
+.image-left {
+	float: left;
+	margin: 0 2em 2em 0;
+}
+
+.image-centered {
+	display: block;
+	margin: 0 auto 2em;
+	text-align: center;
+}
+
+/* Buttons */
+.button {
+	display: inline-block;
+	background-color: #222222;
+	color: #fff;
+	padding: 0.5em 1em;
+	border: 0;
+	cursor: pointer;
+	outline: 0;
+	transition: background-color 0.25s ease-in-out;
+}
+
+.button:hover {
+	background-color: #333333;
+}
+
+.button:active {
+	background-color: #444444;
+}
+
+.button-alt {
+	background-color: #777777;
+}
+
+.button-alt:hover {
+	background-color: #888888;
+}
+
+.button-alt:active {
+	background-color: #999999;
+}
+
+/* Lists */
+ul.style1, ol.style1 {
+	padding-left: 1.25em;
+}
+
+ul.style1 li, ol.style1 li {
+	padding-left: 0.25em;
+}
+
+ul.links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.links li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+ul.links li:before {
+	content: '\2022';
+	margin-right: 0.5em;
+	opacity: 0.5;
+}
+
+ul.links li:first-child:before {
+	display: none;
+}
+
+/* Byline */
+.byline {
+	display: block;
+	color: #aaa;
+}
