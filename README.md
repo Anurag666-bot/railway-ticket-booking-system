@@ -204,10 +204,7 @@ http://localhost/railway/index.htm
 
 ## 👨‍💻 Author
 
-
-
-Project developed as part of academic coursework (B.Tech DBMS Project).
-
+Anurag Kumar Das
 
 
 ---
